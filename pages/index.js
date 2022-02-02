@@ -21,7 +21,7 @@ const Home = () => (
         關於
       </Badge>
       <Stat mt={3} mb={5}>
-        <StatLabel>我</StatLabel>
+        <StatLabel>我是</StatLabel>
         <StatNumber>SUNN</StatNumber>
         <StatHelpText>( 自動化開發 / 平面設計 )</StatHelpText>
       </Stat>
@@ -41,7 +41,7 @@ const Home = () => (
       bg={useColorModeValue("#edf2f780", "#2d2d2d")}
       borderRadius="lg"
     >
-      <Badge mt={4} mb={7}>
+      <Badge mt={8} mb={14}>
         喜好
       </Badge>
       <UnorderedList>
