@@ -41,7 +41,7 @@ const Home = () => (
       bg={useColorModeValue("#edf2f780", "#2d2d2d")}
       borderRadius="lg"
     >
-      <Badge mt={8} mb={14}>
+      <Badge mt={4} mb={7}>
         喜好
       </Badge>
       <UnorderedList>
