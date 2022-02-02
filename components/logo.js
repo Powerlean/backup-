@@ -21,7 +21,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Willie
+            SUNN
           </Text>
         </Logobox>
       </a>
