@@ -30,7 +30,7 @@ const Home = () => (
         I&lsquo;m 來自中國大陸的高中生!
       </Text>
       <Text fontSize="md" mb={3}>
-        站點創建於 <Code> 二月二日 </Code>, 專注於藝術創作
+        站點創建於 <Code> 二月二日 </Code>, 專注技術雜談
       </Text>
     </Box>
 
