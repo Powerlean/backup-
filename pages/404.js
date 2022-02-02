@@ -13,14 +13,14 @@ const NotFound = () => {
     <Container>
       <Box align="center">
         <Heading as="h1" mt={6}>
-          Not found
+          Page Not Found
         </Heading>
-        <Text> 404 </Text>
+        <Text> 查無此頁 </Text>
         <Divider my={6} />
       </Box>
       <Box my={6} align="center">
         <NextLink href="/">
-          <Button colorScheme="gray">Return to home</Button>
+          <Button colorScheme="gray">返回主頁</Button>
         </NextLink>
       </Box>
     </Container>
