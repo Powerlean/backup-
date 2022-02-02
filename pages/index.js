@@ -18,19 +18,19 @@ const Home = () => (
   <Container>
     <Box mt={10} mb={6} p={6}>
       <Badge mt={4} mb={5}>
-        About me
+        關於
       </Badge>
       <Stat mt={3} mb={5}>
-        <StatLabel>Who am I</StatLabel>
-        <StatNumber>Willie Xu</StatNumber>
-        <StatHelpText>( Developer / Designer )</StatHelpText>
+        <StatLabel>我</StatLabel>
+        <StatNumber>SUNN</StatNumber>
+        <StatHelpText>( 自動化開發 / 平面設計 )</StatHelpText>
       </Stat>
 
       <Text fontSize="md" mb={3}>
-        I&lsquo;m a high school student ( Grade 2 ) from China!
+        I&lsquo;m 來自中國大陸的高中生!
       </Text>
       <Text fontSize="md" mb={3}>
-        This site created on <Code> Jan 20 </Code>, focus on English content
+        站點創建於 <Code> 二月二日 </Code>, 專注於藝術創作
       </Text>
     </Box>
 
@@ -42,18 +42,12 @@ const Home = () => (
       borderRadius="lg"
     >
       <Badge mt={4} mb={7}>
-        What I Like
+        喜好
       </Badge>
       <UnorderedList>
-        <ListItem mt={3}>Linux, especially Archlinux</ListItem>
-        <ListItem mt={3}>
-          Music, I like <code>We ued to be-Jacoo</code>, the album of{" "}
-          <code>Age of Innocence</code>, single sound 夜明けと蛍
-        </ListItem>
-        <ListItem mt={3}>
-          Coding, I like building website, JavaScript, Shell Script. Try to
-          Python, C++.{" "}
-        </ListItem>
+        <ListItem mt={3}>Linux, 尤其是Archlinux</ListItem>
+        
+    
       </UnorderedList>
     </Box>
 
@@ -65,12 +59,12 @@ const Home = () => (
       borderRadius="lg"
     >
       <Badge mt={4} mb={7}>
-        My friends
+        我的朋友們
       </Badge>
       <UnorderedList>
         <ListItem mt={3}>
-          <Link href="https://pcoo.me" isExternal>
-            Powerlean
+          <Link href="https://chakra-blog.vercel.app/" isExternal>
+            Willie Xu
           </Link>
         </ListItem>
         <ListItem mt={3}>
