@@ -75,7 +75,7 @@ const Navbar = (props) => {
           css={{ backdropFilter: "blur(10px)" }} 
         >
           <LinkItem href="/" path={path}>
-            關於
+            
           </LinkItem>
           <LinkItem href="/posts" path={path}>
             資訊
@@ -110,19 +110,19 @@ const Navbar = (props) => {
               />
               <MenuList bg={useColorModeValue("whiteAlpha.900", "#2d2d2d")}>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>關於</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Post</MenuItem>
+                  <MenuItem as={Link}>資訊</MenuItem>
                 </NextLink>
                 <NextLink href="/lab" passHref>
-                  <MenuItem as={Link}>Lab</MenuItem>
+                  <MenuItem as={Link}>實驗</MenuItem>
                 </NextLink>
                 <NextLink
                   href="https://github.com/7ity/homepage"
                   _target="_blank"
                 >
-                  <MenuItem as={Link}>Source</MenuItem>
+                  <MenuItem as={Link}>開源</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
