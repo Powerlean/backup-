@@ -6,7 +6,7 @@ import sunn from '/images/sunn.png';
 
 const Logobox = styled.span`
   font-weight: bold;
-  font-size: 31px;
+  font-size: 20px;
   display: inline-flex;
   align-items: center;
   padding: 10px;
