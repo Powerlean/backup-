@@ -20,7 +20,7 @@ import sunn from '/images/sunn.png';
 
 const Home = () => (
   <Container>
-<Image alt="sunn logo" src={sunn} width={1645} height={472} />
+<Image alt="sunn logo" src={sunn} width={1446} height={813} />
     <Box mt={10} mb={6} p={6}>
       <Badge mt={4} mb={5}>
         關於
