@@ -74,13 +74,13 @@ const Navbar = (props) => {
           mt={{ base: 4, md: 1.5 }}
         >
           <LinkItem href="/" path={path}>
-            About
+            關於
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            Posts
+            資訊
           </LinkItem>
           <LinkItem href="/lab" path={path}>
-            Lab
+            實驗
           </LinkItem>
           <LinkItem
             _target="_blank"
@@ -91,7 +91,7 @@ const Navbar = (props) => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            開源
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
