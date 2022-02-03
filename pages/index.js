@@ -21,9 +21,7 @@ import sunn from '/images/sunn.png';
 const Home = () => (
   <Container>
     <Box mt={10} mb={6} p={6}>
-      <Badge mt={4} mb={5}>
-        關於
-      </Badge>
+
       <Stat mt={3} mb={5}>
         <StatLabel>我是</StatLabel>
         <StatNumber>SUNN</StatNumber>
