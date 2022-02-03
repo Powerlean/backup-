@@ -25,6 +25,7 @@ const Home = () => (
       <Stat mt={3} mb={5}>
         <StatLabel>我是</StatLabel>
         <StatNumber>SUNN</StatNumber>
+          fontSize="4xl"
         <StatHelpText>( 自動化開發 / 平面設計 )</StatHelpText>
       </Stat>
 
