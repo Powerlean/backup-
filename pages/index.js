@@ -22,10 +22,10 @@ const Home = () => (
   <Container>
     <Box mt={10} mb={6} p={6}>
 
-      <Stat mt={3} mb={5}>
+      <Stat mt={6} mb={5}>
         <StatLabel>我是</StatLabel>
         <StatNumber>SUNN</StatNumber>
-          fontSize="4xl"
+         
         <StatHelpText>( 自動化開發 / 平面設計 )</StatHelpText>
       </Stat>
 
