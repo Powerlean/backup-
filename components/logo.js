@@ -17,7 +17,7 @@ const Logo = () => {
     <Link href="/">
       <a>
         <Logobox>
-          <Image alt="sunn logo" src={sunn} width={100} height={30} />
+          <Image alt="sunn logo" src={sunn} width={120} height={36} />
         </Logobox>
       </a>
     </Link>
