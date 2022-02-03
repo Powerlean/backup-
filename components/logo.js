@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Text, useColorModeValue } from "@chakra-ui/react";
 import styled from "@emotion/styled";
+import Image from 'next/image';
+import sunn from '/images/sunn.png';
 
 const Logobox = styled.span`
   font-weight: bold;
@@ -15,14 +17,7 @@ const Logo = () => {
     <Link href="/">
       <a>
         <Logobox>
-          <Text
-            color={useColorModeValue("gary.800", "whiteAlpha.900")}
-            fontFamily="-ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, Liberation Mono, monospace"
-            fontWeight="bold"
-            ml={3}
-          >
-            SUNN
-          </Text>
+          <Image alt="sunn logo" src={sunn} width={145} height={81} />
         </Logobox>
       </a>
     </Link>
