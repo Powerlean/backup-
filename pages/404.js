@@ -12,8 +12,8 @@ const NotFound = () => {
   return (
     <Container>
       <Box align="center">
-        <Heading as="h1" mt={6}>
-          Page Not Found
+        <Heading as="h1" mt={9}>
+          404
         </Heading>
         <Text> 查無此頁 </Text>
         <Divider my={6} />
