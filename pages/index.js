@@ -13,7 +13,10 @@ import {
   ListItem,
   useColorModeValue,
 } from "@chakra-ui/react";
+
 import Image from 'next/image';
+import sunn from '/images/sunn.png';
+
 
 const Home = () => (
   <Container>
