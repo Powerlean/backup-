@@ -30,10 +30,10 @@ const Home = () => (
       </Stat>
 
       <Text fontSize="md" mb={3}>
-        I&lsquo;m 來自中國大陸的高中生!
+        Yes,I&lsquo;m a graphic designer!
       </Text>
       <Text fontSize="md" mb={3}>
-        站點創建於 <Code> 二月二日 </Code>, 專注技術雜談
+        站點始建於 <Code> 公元二零二二年二月二日 </Code>
       </Text>
     </Box>
 
@@ -45,10 +45,11 @@ const Home = () => (
       borderRadius="lg"
     >
       <Badge mt={4} mb={7}>
-        喜好
+        主要作業
       </Badge>
       <UnorderedList>
-        <ListItem mt={3}>Linux, 尤其是Archlinux</ListItem>
+        <ListItem mt={3}>Shell script 程式編寫</ListItem>
+        <ListItem mt={3}>商標、海報等平面設計</ListItem>
         
     
       </UnorderedList>
@@ -62,7 +63,7 @@ const Home = () => (
       borderRadius="lg"
     >
       <Badge mt={4} mb={7}>
-        我的朋友們
+        友情連結
       </Badge>
       <UnorderedList>
         <ListItem mt={3}>
