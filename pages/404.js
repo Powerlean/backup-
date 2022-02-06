@@ -12,6 +12,10 @@ const NotFound = () => {
   return (
     <Container>
       <Box align="center">
+h1{
+    font-size: 80px;
+    font-weight: 900;
+}
         <Heading as="h1" mt={9}>
           404
         </Heading>
