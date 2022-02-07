@@ -71,7 +71,7 @@ const Navbar = (props) => {
           width={{ base: "full", md: "auto" }}
           alignItems="center"
           flexGrow={1}
-          mt={{ base: 4, md: 1.5 }}
+          mt={{ base: 4, md: 1}}
           css={{ backdropFilter: "blur(10px)" }} 
         >
           <LinkItem href="/" path={path}>
