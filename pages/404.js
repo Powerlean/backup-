@@ -18,7 +18,7 @@ const NotFound = () => {
     <Container>
       <Box align="center">
           <Divider my={9} />
-          <h1>404</h1>
+          <p id="p1" style="font-size:14px;"404</p>
         <Text> 嚄...好像迷路囉？ </Text>
         <Divider my={6} />
 <Image alt="notfound" src={notfound} width={400} height={400} />
