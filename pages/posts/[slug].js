@@ -5,6 +5,7 @@ import {Badge, Container, Heading, Text, useColorModeValue} from "@chakra-ui/rea
 import MDXComponents from "../../components/MDXComponents";
 import {getFileBySlug, getFiles} from "../../lib/mdx";
 import distanceToNow from "../../lib/daterelative";
+import { TimeIcon } from "@chakra-ui/icons"
 
 
 
@@ -39,17 +40,17 @@ const BlogPost = ({ post }) => {
           fontWeight="normal"
           fontSize="4xl"
           mt={5}
-          mb={3}
+          mb={2}
           fontFamily="inherit"
         >
           {metaData.title}
 
         </Heading>
 
-        <Badge mb={5}>
-          <time>{distanceToNow(new Date(metaData.date))}</time>
+        <Badge mb={4}>
+          <time><TimeIcon /> {distanceToNow(new Date(metaData.date))}</time>
         </Badge>
-<Text color={useColorModeValue('gray.400','gray.300')} fontSize="sm" mt={2} mb={4}>
+<Text color={useColorModeValue('gray.600','gray.300')} fontSize="sm" mb={20}>
   {metaData.excerpt}
 </Text>
         <MDXRemote
