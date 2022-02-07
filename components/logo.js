@@ -15,7 +15,7 @@ const Logo = () => {
     <Link href="/">
       <a>
         <Logobox>
-          <Image alt="sunn logo" src="/images/sunn.png"  css={{filter:"invert(.7)"}} width={14}  />
+          <Image alt="sunn logo" src="/images/sunn.png"  css={{filter:"invert(.7)"}} width={22}  />
         </Logobox>
       </a>
     </Link>
