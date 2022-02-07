@@ -21,7 +21,7 @@ const NotFound = () => {
 
         <Text mt={2}> 嚄...好像迷路囉？ </Text>
         <Divider my={6} />
-<Image alt="notfound" src="/images/bak.png" width={340} height={340} />
+<Image alt="notfound" src="/images/bak.png" width={360} height={350} />
       </Box>
       <Box my={6} align="center">
         <NextLink href="/">
