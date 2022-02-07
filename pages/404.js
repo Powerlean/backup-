@@ -14,12 +14,12 @@ const NotFound = () => {
   return (
     <Container>
       <Box align="center">
-      <Image alt="notfound" src={notfound} width={150} height={150} />
-        <Heading as="h1" mt={9}>
+             <Heading as="h1" mt={9}>
           404
         </Heading>
         <Text> 查無此頁 </Text>
         <Divider my={6} />
+<Image alt="notfound" src={notfound} width={300} height={300} />
       </Box>
       <Box my={6} align="center">
         <NextLink href="/">
