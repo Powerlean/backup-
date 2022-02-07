@@ -10,9 +10,18 @@ import {
 import Image from 'next/image';
 import notfound from '/images/404.png';
 
-h1 {
-  font-weight: 400;
-}
+
+// styles/global.js
+import css from 'styled-jsx/css'
+
+export default css.global`
+  h1 {
+    font-weight: 700;
+    color: #333;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+`
 
 const NotFound = () => {
   return (
