@@ -18,7 +18,14 @@ const NotFound = () => {
     <Container>
       <Box align="center">
           <Divider my={9} />
-          <Text> 404 </Text>
+var myStyle = {
+    fontSize: 40,
+    color: '#C5CAE9'
+};
+ReactDOM.render(
+    <h1 style = {myStyle}>404</h1>,
+    document.getElementById('PageNotFound')
+);
         <Text> 嚄...好像迷路囉？ </Text>
         <Divider my={6} />
 <Image alt="notfound" src={notfound} width={400} height={400} />
