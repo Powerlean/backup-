@@ -8,7 +8,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 import Image from 'next/image';
-import notfound from '/images/404.png';
+import notfound from '/images/404bak.png';
 
 
 
