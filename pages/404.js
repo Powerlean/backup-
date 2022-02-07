@@ -19,7 +19,7 @@ const NotFound = () => {
         </Heading>
         <Text> 查無此頁 </Text>
         <Divider my={6} />
-<Image alt="notfound" src={notfound} width={300} height={300} />
+<Image alt="notfound" src={notfound} width={400} height={400} />
       </Box>
       <Box my={6} align="center">
         <NextLink href="/">
