@@ -18,12 +18,8 @@ const NotFound = () => {
     <Container>
       <Box align="center">
           <Divider my={9} />
-var myStyle = {
-    fontSize: 40,
-    color: '#010101'
-};
 
-    <h1 style = {myStyle}>404</h1>,
+    <h1>404</h1>,
     
 
         <Text> 嚄...好像迷路囉？ </Text>
