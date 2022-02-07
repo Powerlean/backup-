@@ -14,9 +14,8 @@ const NotFound = () => {
   return (
     <Container>
       <Box align="center">
-          <head>
+          <Divider my={9} />
           <h1>404</h1>
-          </head>
         <Text> 嚄...好像迷路囉？ </Text>
         <Divider my={6} />
 <Image alt="notfound" src={notfound} width={400} height={400} />
