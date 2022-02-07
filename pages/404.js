@@ -17,7 +17,7 @@ const NotFound = () => {
           <head>
           <h1>404</h1>
           </head>
-        <Text> 查無此頁 </Text>
+        <Text> 嚄...好像迷路囉？ </Text>
         <Divider my={6} />
 <Image alt="notfound" src={notfound} width={400} height={400} />
       </Box>
