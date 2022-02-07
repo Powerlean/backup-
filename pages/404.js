@@ -11,7 +11,6 @@ import Image from 'next/image';
 import notfound from '/images/404.png';
 
 h1 {
-  font-size: 18px;
   font-weight: 400;
 }
 
