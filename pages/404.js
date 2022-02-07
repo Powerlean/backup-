@@ -24,7 +24,7 @@ var myStyle = {
 };
 ReactDOM.render(
     <h1 style = {myStyle}>404</h1>,
-    document.getElementById('PageNotFound')
+    
 );
         <Text> 嚄...好像迷路囉？ </Text>
         <Divider my={6} />
