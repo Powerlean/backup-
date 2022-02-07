@@ -12,7 +12,6 @@ import notfound from '/images/404.png';
 
 
 // styles/global.js
-import css from 'styled-jsx/css'
 
 export default css.global`
   h1 {
