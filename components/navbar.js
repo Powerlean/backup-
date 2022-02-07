@@ -75,7 +75,7 @@ const Navbar = (props) => {
           css={{ backdropFilter: "blur(10px)" }} 
         >
           <LinkItem href="/" path={path}>
-            
+            關於
           </LinkItem>
           <LinkItem href="/posts" path={path}>
             資訊

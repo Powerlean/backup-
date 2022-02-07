@@ -6,25 +6,23 @@ import {
   Container,
   Divider,
   Button,
+  Image
 } from "@chakra-ui/react";
-import Image from 'next/image';
-import notfound from '/images/404bak.png';
-
 
 
 
 const NotFound = () => {
   return (
     <Container>
-      <Box align="center">
+      <Box align="center" mt={20}>
           <Divider my={9} />
 
-    <h1>404</h1>,
+    <Heading fontFamily="inherit" fontSize="3xl" fontWeight="bold">404</Heading>
     
 
-        <Text> 嚄...好像迷路囉？ </Text>
+        <Text mt={2}> 嚄...好像迷路囉？ </Text>
         <Divider my={6} />
-<Image alt="notfound" src={notfound} width={400} height={400} />
+<Image alt="notfound" src="/images/bak.png" width={400} height={400} />
       </Box>
       <Box my={6} align="center">
         <NextLink href="/">
