@@ -15,8 +15,7 @@ const NotFound = () => {
   return (
     <Container>
       <Box align="center" mt={20}>
-          <Divider my={9} />
-
+   
     <Heading fontFamily="inherit" fontSize="8xl" fontWeight="bold">404</Heading>
     
 
