@@ -16,7 +16,7 @@ const NotFound = () => {
     <Container>
       <Box align="center" mt={20}>
    
-    <Heading fontFamily="inherit" fontSize="8xl" fontWeight="bold">404</Heading>
+    <Heading fontFamily="Georgia" fontSize="8xl" fontWeight="bold">404</Heading>
     
 
         <Text mt={2}> 嚄...好像迷路囉？ </Text>
