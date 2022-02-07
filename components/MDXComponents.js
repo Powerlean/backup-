@@ -161,7 +161,7 @@ const MDXComponents = {
   h1: (props) => (
       <Heading
           as="h1"
-          fontSize="3xl"
+          fontSize="10xl"
           pb={0.5}
           fontWeight="normal"
           fontFamily="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
