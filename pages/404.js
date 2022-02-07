@@ -20,7 +20,7 @@ const NotFound = () => {
           <Divider my={9} />
 var myStyle = {
     fontSize: 40,
-    color: '#C5CAE9'
+    color: '#010101'
 };
 ReactDOM.render(
     <h1 style = {myStyle}>404</h1>,
