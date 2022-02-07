@@ -22,10 +22,10 @@ var myStyle = {
     fontSize: 40,
     color: '#010101'
 };
-ReactDOM.render(
+
     <h1 style = {myStyle}>404</h1>,
     
-);
+
         <Text> 嚄...好像迷路囉？ </Text>
         <Divider my={6} />
 <Image alt="notfound" src={notfound} width={400} height={400} />
