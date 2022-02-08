@@ -1,5 +1,4 @@
 import { Box } from "@chakra-ui/react";
-import { IoMail } from "react-icons/io5";
 
 const Footer = () => {
   return (
