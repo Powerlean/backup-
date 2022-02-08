@@ -19,8 +19,9 @@ import Image from 'next/image';
 
 const Home = () => (
   <Container>
-    <Box mt={10} mb={6} p={6}>
 <Image alt="bakg" src="/images/logo_winter.png" width={36} height={36} />
+
+    <Box mt={10} mb={6} p={6}>
       <Stat mt={6} mb={5}>
         <StatLabel>我是</StatLabel>
         <StatNumber>SUNN</StatNumber>
