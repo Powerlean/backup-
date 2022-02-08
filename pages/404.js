@@ -16,7 +16,7 @@ const NotFound = () => {
         <Image alt="notfound" src="/images/bak.png" width={360} height={330} />
        <Heading fontFamily="sans-serif" fontSize="2xl" fontWeight="bold">嚄...好像迷路囉？</Heading>
 <p> </p>
-       <h2>您所搜尋的資訊不存在亦或無訪問權限。<h2>  
+       <h2>您所搜尋的資訊不存在亦或無訪問權限。</h2>  
 </Box>
       <Box my={6} align="center">
         <NextLink href="/">
