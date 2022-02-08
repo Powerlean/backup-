@@ -17,7 +17,6 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
-import { IoLogoOctocat } from "react-icons/io5";
 import { IoAtCircleSharp } from "react-icons/io5";
 import { IoBookmarks } from "react-icons/io5";
 import { IoFlask } from "react-icons/io5";
