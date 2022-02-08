@@ -6,17 +6,9 @@ const Footer = () => {
     <Box align="center" fontSize="sm">
        &copy;{new Date().getFullYear()} SUNN，由「Willie」強力驅動
 
-<LinkItem
-            _target="_blank"
-            href="mailto:contact@liberas.studio"
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <IoMail />
-            聯絡我們
-          </LinkItem>
+<p>
+            聯絡我們：contact@liberas.studio
+          </p>
     </Box>
   );
 };
