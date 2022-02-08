@@ -14,13 +14,8 @@ const NotFound = () => {
   return (
     <Container>
       <Box align="center" mt={20}>
-   
-    <Heading fontFamily="serif" fontSize="8xl" fontWeight="bold">404</Heading>
-    
-
-        <Text mt={2}> 嚄...好像迷路囉？ </Text>
-        
-<Image alt="notfound" src="/images/bak.png" width={360} height={330} />
+        <Image alt="notfound" src="/images/bak.png" width={360} height={330} />
+       <Heading fontFamily="serif" fontSize="2xl" fontWeight="bold">嚄...好像迷路囉？</Heading>
       </Box>
       <Box my={6} align="center">
         <NextLink href="/">
