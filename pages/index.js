@@ -21,7 +21,7 @@ import {
 const Home = () => (
   <Container>
     <Box mt={10} mb={6} p={6}>
-  <Image src="../images/logowinter.png" borderWidth="1px" rounded="md" my={4}/>
+  <Image src="/public/images/logowinter.png" alt="logo" rounded="md" my={4}/>
       <Stat mt={6} mb={5}>
         <StatLabel>我是</StatLabel>
         <StatNumber>SUNN</StatNumber>
