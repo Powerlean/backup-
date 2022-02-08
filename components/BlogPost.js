@@ -14,7 +14,7 @@ import NextLink from "next/link";
 import {motion} from "framer-motion";
 import distanceToNow from "../lib/daterelative";
 
-const BlogPost = ({ title, content, date, excerpt, slug }) => {
+const BlogPost = ({ title, date, excerpt, slug }) => {
   const StyledDiv = chakra(motion.div, {
     shouldForwardProp: (prop) => {
       return shouldForwardProp(prop) || prop === "transition";
@@ -25,7 +25,7 @@ const BlogPost = ({ title, content, date, excerpt, slug }) => {
     <Text color={useColorModeValue("gray.600", "gray.400")}>{children}</Text>
   );
 
-  const Section = ({ children, delay = 0 }) => (
+  const Section = ({ children }) => (
     <StyledDiv
       initial={{ y: 10, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
