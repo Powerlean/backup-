@@ -15,13 +15,12 @@ import {
 } from "@chakra-ui/react";
 
 import Image from 'next/image';
-import sunn from '/images/sunn.png';
 
 
 const Home = () => (
   <Container>
     <Box mt={10} mb={6} p={6}>
-<Image alt="background" src="/images/logo_winter.png" width={360} height={360} />
+<Image alt="bakg" src="/images/logo_winter.png" width={36} height={36} />
       <Stat mt={6} mb={5}>
         <StatLabel>我是</StatLabel>
         <StatNumber>SUNN</StatNumber>
