@@ -1,4 +1,4 @@
-Chakra-blog
+Chakra-blog (SUNN Edition)
 ===========
 
 A beautiful and easy in hand blog made by Next.js Chakra-ui!
