@@ -21,7 +21,7 @@ const Home = () => (
   <Container>
     <Box mt={10} mb={6} p={6}>
       <Stat mt={6} mb={5}>
-<Image alt="backlogo" src="https://s4.ax1x.com/2022/02/08/H1H7dO.png" width={195} height={180} />
+<Image alt="backlogo" src="/images/logowinter.png" width={195} height={180} />
         <StatLabel>我是</StatLabel>
         <StatNumber>SUNN</StatNumber>
          
