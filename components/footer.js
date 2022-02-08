@@ -7,7 +7,7 @@ import {
 const Footer = () => {
   return (
      <Box align="center" fontSize="sm">
-<Image src='/images/trademark.png' alt="footer logo" rounded="md" boxSize='100px' objectFit='cover' my={8} />
+<Image src='/images/trademark.png' alt="footer logo" rounded="md" boxSize='100px' objectFit='cover' my={14} />
        &copy;{new Date().getFullYear()} SUNN，由「Willie」強力驅動
     </Box>
   );
