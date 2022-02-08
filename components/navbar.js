@@ -89,18 +89,7 @@ const Navbar = (props) => {
             <IoFlask />
             實驗
           </LinkItem>
-          <LinkItem
-            _target="_blank"
-            href="https://github.com/7ity/homepage"
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <IoLogoOctocat />
-
-            開源
-          </LinkItem>
+          
         </Stack>
         <Box flex={1} align="right">
           <ThemeToggleButton />
@@ -125,12 +114,7 @@ const Navbar = (props) => {
                 <NextLink href="/lab" passHref>
                   <MenuItem as={Link}>實驗</MenuItem>
                 </NextLink>
-                <NextLink
-                  href="https://github.com/7ity/homepage"
-                  _target="_blank"
-                >
-                  <MenuItem as={Link}>開源</MenuItem>
-                </NextLink>
+                
               </MenuList>
             </Menu>
           </Box>
