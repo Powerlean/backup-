@@ -4,7 +4,6 @@ import {
   Heading,
   Text,
   Container,
-  Divider,
   Button,
   Image
 } from "@chakra-ui/react";
