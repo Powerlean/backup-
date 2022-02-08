@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Text, Image, useColorModeValue } from "@chakra-ui/react";
+import { Image } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 
 const Logobox = styled.span`
