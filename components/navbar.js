@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
-import { IoLogoGithub } from "react-icons/io5";
+import { IoLogoOctocat } from "react-icons/io5";
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href;
@@ -91,7 +91,7 @@ const Navbar = (props) => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoLogoGithub />
+            <IoLogoOctocat />
             開源
           </LinkItem>
         </Stack>
