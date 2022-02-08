@@ -12,7 +12,6 @@ import {
   UnorderedList,
   ListItem,
   useColorModeValue,
-  Image,
 } from "@chakra-ui/react";
 
 import Image from 'next/image';
