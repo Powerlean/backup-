@@ -22,7 +22,6 @@ const Home = () => (
     <Box mt={10} mb={6} p={6}>
       <Stat mt={6} mb={5}>
 
-<Image alt="bakg" src="/images/logo_winter.png" width={6} />
         <StatLabel>我是</StatLabel>
         <StatNumber>SUNN</StatNumber>
          
