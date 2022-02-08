@@ -30,7 +30,7 @@ const Home = () => (
       </Stat>
 
       <Text fontSize="md" mb={3}>
-        Yes,I&lsquo;m a graphic designer!
+        Yes,I'm a graphic designer!
       </Text>
       <Text fontSize="md" mb={3}>
         站點始建於 <Code> 公元二零二二年，二月二日 </Code>
