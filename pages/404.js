@@ -15,6 +15,7 @@ const NotFound = () => {
       <Box align="center" mt={20}>
         <Image alt="notfound" src="/images/bak.png" width={360} height={330} />
        <Heading fontFamily="sans-serif" fontSize="2xl" fontWeight="bold">嚄...好像迷路囉？</Heading>
+<p> </p>
        <Heading fontFamily="sans-serif" fontSize="1xl" fontWeight="thin">您所搜尋的資訊不存在亦或無訪問權限。</Heading>  
 </Box>
       <Box my={6} align="center">
