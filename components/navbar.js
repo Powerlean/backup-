@@ -18,6 +18,9 @@ import {
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
 import { IoLogoOctocat } from "react-icons/io5";
+import { IoAtCircleSharp } from "react-icons/io5";
+import { IoBookmarks } from "react-icons/io5";
+import { IoFlask } from "react-icons/io5";
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href;
@@ -75,12 +78,15 @@ const Navbar = (props) => {
           css={{ backdropFilter: "blur(10px)" }} 
         >
           <LinkItem href="/" path={path}>
+            <IoAtCircleSharp />
             關於
           </LinkItem>
           <LinkItem href="/posts" path={path}>
+            <IoBookmarks />
             資訊
           </LinkItem>
           <LinkItem href="/lab" path={path}>
+            <IoFlask />
             實驗
           </LinkItem>
           <LinkItem
