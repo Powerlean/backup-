@@ -1,4 +1,5 @@
 import NextLink from "next/link";
+import React from "react";
 import {
   Box,
   Heading,
@@ -21,8 +22,8 @@ const NotFound = () => {
 </Box>
       <Box my={6} align="center">
         <NextLink href="/">
-<IoBalloonSharp />
-          <Button colorScheme="gray">返回主頁</Button>
+
+          <Button colorScheme="gray"><IoBalloonSharp />返回主頁</Button>
         </NextLink>
       </Box>
     </Container>
