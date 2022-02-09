@@ -1,5 +1,5 @@
 import NextLink from "next/link";
-import React from "react";
+
 import {
   Box,
   Heading,
@@ -7,7 +7,7 @@ import {
   Button,
   Image
 } from "@chakra-ui/react";
-import { IoBalloonSharp } from "@chakra-ui/io5";
+
 
 
 
@@ -23,7 +23,7 @@ const NotFound = () => {
       <Box my={6} align="center">
         <NextLink href="/">
 
-          <Button colorScheme="gray"><IoBalloonSharp />返回主頁</Button>
+          <Button colorScheme="gray">返回主頁</Button>
         </NextLink>
       </Box>
     </Container>
