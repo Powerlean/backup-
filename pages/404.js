@@ -6,7 +6,7 @@ import {
   Button,
   Image
 } from "@chakra-ui/react";
-import { arrow-undo-circle } from "@chakra-ui/icons";
+import { IoBalloonSharp } from "@chakra-ui/icons";
 
 
 
@@ -21,7 +21,7 @@ const NotFound = () => {
 </Box>
       <Box my={6} align="center">
         <NextLink href="/">
-          <Button colorScheme="gray"><arrow-undo-circle />返回主頁</Button>
+          <Button colorScheme="gray"><IoBalloonSharp />返回主頁</Button>
         </NextLink>
       </Box>
     </Container>
