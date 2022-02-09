@@ -21,7 +21,8 @@ const NotFound = () => {
 </Box>
       <Box my={6} align="center">
         <NextLink href="/">
-          <Button colorScheme="gray"><IoBalloonSharp />返回主頁</Button>
+<IoBalloonSharp />
+          <Button colorScheme="gray">返回主頁</Button>
         </NextLink>
       </Box>
     </Container>
