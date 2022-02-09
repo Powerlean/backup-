@@ -71,21 +71,6 @@ const Home = () => (
             Willie Xu
           </Link>
         </ListItem>
-        <ListItem mt={3}>
-          <Link href="https://anillc.cn" isExternal>
-            Anillc
-          </Link>
-        </ListItem>
-        <ListItem mt={3}>
-          <Link href="https://www.chinq.xyz" isExternal>
-            CHINQ
-          </Link>
-        </ListItem>
-        <ListItem mt={3}>
-          <Link href="https://ncdwlq.space" isExternal>
-            NCDWLQ
-          </Link>
-        </ListItem>
       </UnorderedList>
     </Box>
   </Container>
