@@ -67,7 +67,7 @@ const Home = () => (
       </Badge>
       <UnorderedList>
         <ListItem mt={3}>
-          <Link href="https://chakra-blog.vercel.app/" isExternal>
+          <Link href="https://www.wll.moe/" isExternal>
             Willie Xu
           </Link>
         </ListItem>
