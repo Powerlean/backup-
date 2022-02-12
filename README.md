@@ -1,4 +1,4 @@
-(My website)[https://www.snn.moe]
+[My Website](https://snn.moe)
 
 Chakra-blog (SUNN Edition)
 ===========
