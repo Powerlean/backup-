@@ -23,17 +23,12 @@ const Home = () => (
     <Box mt={10} mb={6} p={6}>
   <Image src='/images/about.png' alt="logo" rounded="md" my={4} />
       <Stat mt={6} mb={5}>
-        <StatLabel>我是</StatLabel>
         <StatNumber>SUNN</StatNumber>
-         
-        <StatHelpText>( 自動化開發 / 平面設計 )</StatHelpText>
+        <StatHelpText>( UI設計 / 平面設計 )</StatHelpText>
       </Stat>
 
       <Text fontSize="md" mb={3}>
-        Yes, I am a graphic designer!
-      </Text>
-      <Text fontSize="md" mb={3}>
-        站點始建於 <Code> 公元二零二二年，二月二日 </Code>
+        Looking for an excellent graphic designer? You found!
       </Text>
     </Box>
 
@@ -45,11 +40,11 @@ const Home = () => (
       borderRadius="lg"
     >
       <Badge mt={4} mb={7}>
-        主要作業
+        主要業務
       </Badge>
       <UnorderedList>
-        <ListItem mt={3}>Shell script 程式編寫</ListItem>
-        <ListItem mt={3}>商標、海報等平面設計</ListItem>
+        <ListItem mt={3}>網頁、應用程式UI</ListItem>
+        <ListItem mt={3}>商標、Logos等平面設計</ListItem>
         
     
       </UnorderedList>
