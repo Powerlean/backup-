@@ -2,7 +2,6 @@ import {
   Container,
   Box,
   Stat,
-  StatLabel,
   StatNumber,
   StatHelpText,
   Badge,
