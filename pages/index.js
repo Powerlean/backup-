@@ -6,7 +6,6 @@ import {
   StatHelpText,
   Badge,
   Text,
-  Code,
   Link,
   UnorderedList,
   ListItem,
