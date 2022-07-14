@@ -19,7 +19,7 @@ import {
 const Home = () => (
   <Container>
     <Box mt={10} mb={6} p={6}>
-  <Image src='/images/about.png' alt="logo" rounded="md" my={4} />
+  <Image src='/images/bg.png' alt="logo" rounded="md" my={4} />
       <Stat mt={6} mb={5}>
         <StatNumber>MeMeCat</StatNumber>
         <StatHelpText>( VI设计 / 平面设计 )</StatHelpText>
