@@ -78,15 +78,15 @@ const Navbar = (props) => {
         >
           <LinkItem href="/" path={path}>
             <IoAtCircleSharp />
-            關於
+            关于
           </LinkItem>
           <LinkItem href="/posts" path={path}>
             <IoBookmarks />
-            資訊
+            作品
           </LinkItem>
           <LinkItem href="/lab" path={path}>
             <IoFlask />
-            實驗
+            更多
           </LinkItem>
           
         </Stack>
@@ -105,13 +105,13 @@ const Navbar = (props) => {
               />
               <MenuList bg={useColorModeValue("whiteAlpha.900", "#2d2d2d")}>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>關於</MenuItem>
+                  <MenuItem as={Link}>关于</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>資訊</MenuItem>
+                  <MenuItem as={Link}>作品</MenuItem>
                 </NextLink>
                 <NextLink href="/lab" passHref>
-                  <MenuItem as={Link}>實驗</MenuItem>
+                  <MenuItem as={Link}>更多</MenuItem>
                 </NextLink>
                 
               </MenuList>
