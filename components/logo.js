@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 
 const Logobox = styled.span`
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   display: inline-flex;
   align-items: center;
   padding: 10px;
