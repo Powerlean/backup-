@@ -21,12 +21,12 @@ const Home = () => (
     <Box mt={10} mb={6} p={6}>
   <Image src='/images/about.png' alt="logo" rounded="md" my={4} />
       <Stat mt={6} mb={5}>
-        <StatNumber>SUNN</StatNumber>
+        <StatNumber>MeMeCat</StatNumber>
         <StatHelpText>( UI設計 / 平面設計 )</StatHelpText>
       </Stat>
 
       <Text fontSize="md" mb={3}>
-        Looking for an excellent graphic designer? You found!
+        "设计赋予世界活力。"
       </Text>
     </Box>
 
@@ -38,11 +38,11 @@ const Home = () => (
       borderRadius="lg"
     >
       <Badge mt={4} mb={7}>
-        主要業務
+        业务范围
       </Badge>
       <UnorderedList>
-        <ListItem mt={3}>網頁、應用程式UI</ListItem>
-        <ListItem mt={3}>商標、Logos等平面設計</ListItem>
+        <ListItem mt={3}>网页，应用UI</ListItem>
+        <ListItem mt={3}>VI识别系统设计...</ListItem>
         
     
       </UnorderedList>
@@ -56,12 +56,17 @@ const Home = () => (
       borderRadius="lg"
     >
       <Badge mt={4} mb={7}>
-        友情連結
+        友情链接
       </Badge>
       <UnorderedList>
         <ListItem mt={3}>
           <Link href="https://www.wll.moe/" isExternal>
             Willie Xu
+          </Link>
+        </ListItem>
+        <ListItem mt={3}>
+          <Link href="https://t.me/sunndesign" isExternal>
+            MeMeCatの设计方案
           </Link>
         </ListItem>
       </UnorderedList>
