@@ -16,9 +16,9 @@ const NotFound = () => {
     <Container>
       <Box align="center" mt={20}>
         <Image alt="notfound" src="/images/404.png" width={360} height={330} />
-       <Heading fontFamily="sans-serif" fontSize="2xl" fontWeight="bold">嚄...好像迷路囉？</Heading>
+       <Heading fontFamily="sans-serif" fontSize="2xl" fontWeight="bold">我们好像迷路了？</Heading>
 
-       <h2>我们好像迷路了？</h2>  
+       <h2>您所访问的页面已失效</h2>  
 </Box>
       <Box my={6} align="center">
         <NextLink href="/">
