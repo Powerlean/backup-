@@ -18,7 +18,7 @@ const NotFound = () => {
         <Image alt="notfound" src="/images/404.png" width={360} height={330} />
        <Heading fontFamily="sans-serif" fontSize="2xl" fontWeight="bold">我们好像迷路了？</Heading>
 
-       <h2>您当前所访问的页面已经失效或暂无访问权限</h2>  
+       <h2>出了一点小问题，咱会搞定它的！</h2>  
 </Box>
       <Box my={6} align="center">
         <NextLink href="/">
