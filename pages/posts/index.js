@@ -29,13 +29,13 @@ const Blog = ({ posts }) => {
     <Container>
       <Box mt={10} mb={6} p={5}>
         <Heading fontSize="3xl" fontFamily="inherit" fontWeight="normal" color={useColorModeValue('gray.600','gray.300')} mb={4}>
-          圖文資訊
+          作品集
         </Heading>
 
         <InputGroup mb={10}>
           <Input
             aria-label="Search by post title"
-            placeholder="檢視 ..."
+            placeholder="发起检索 ..."
             onChange={(e) => setSearchValue(e.target.value)}
             _focus={{ borderWidth: "0.0625rem" }}
           />
@@ -44,7 +44,7 @@ const Blog = ({ posts }) => {
           </InputRightElement>
         </InputGroup>
         {!filteredBlogPosts.length && (
-          <Box my={4}>未檢索到相關資訊，請嘗試減少檢索語詞</Box>
+          <Box my={4}>未检索到相关作品，请尝试减少关键词</Box>
         )}
         {filteredBlogPosts.map((post) => (
           <BlogPost key={post.title} {...post} />
