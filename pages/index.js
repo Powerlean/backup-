@@ -22,11 +22,11 @@ const Home = () => (
   <Image src='/images/about.png' alt="logo" rounded="md" my={4} />
       <Stat mt={6} mb={5}>
         <StatNumber>MeMeCat</StatNumber>
-        <StatHelpText>( UI設計 / 平面設計 )</StatHelpText>
+        <StatHelpText>( VI设计 / 平面设计 )</StatHelpText>
       </Stat>
 
       <Text fontSize="md" mb={3}>
-        "设计赋予世界活力。"
+        设计赋予世界活力。
       </Text>
     </Box>
 
