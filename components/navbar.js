@@ -84,9 +84,9 @@ const Navbar = (props) => {
             <IoBookmarks />
             作品
           </LinkItem>
-          <LinkItem href="/lab" path={path}>
+          <LinkItem href="https://t.me/sunndesign" path={path}>
             <IoFlask />
-            更多
+            频道
           </LinkItem>
           
         </Stack>
