@@ -33,6 +33,7 @@ const BlogPost = ({ post }) => {
     <Container mt={10} mb={100} maxWidth={"container.md"}>
       <Head>
         <title>{metaData.title}</title>
+        <link rel="shortcut icon" href="/images/logo.ico"/>
         <meta name="description" content={metaData.content} />
       </Head>
       <Layout>
