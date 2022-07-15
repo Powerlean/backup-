@@ -9,6 +9,7 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>MeMeCatの设计方案</title>
+<link rel="shortcut icon" href="/images/logo.ico"/>
       </Head>
       <Navbar path={router.asPath} />
       <Container maxW="container.md" pt={14}>
