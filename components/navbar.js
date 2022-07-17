@@ -74,7 +74,7 @@ const Navbar = (props) => {
           alignItems="center"
           flexGrow={1}
           mt={{ base: 4, md: 1}}
-          css={{ backdropFilter: "blur(10px)" }} 
+         
         >
           <LinkItem href="/" path={path}>
             <IoAtCircleSharp />
